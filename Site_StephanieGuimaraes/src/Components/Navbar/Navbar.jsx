@@ -4,14 +4,14 @@ import logo_Teste from '../../assets/logo_Teste.png'
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className='container'>
         <img src={logo_Teste} alt='logo escrito Stephanie Guimarães' className='logo'></img>
         <ul>
-            <li>Home</li>
-            <li>Publications</li>
-            <li>Work Projects</li>
-            <li>Grad School Projects</li>
-            <li>About Me</li>
+            <li><button className='btn_primary'>Home</button></li>
+            <li><button className='btn_primary'>Publications</button></li>
+            <li><button className='btn_primary'>Work Projects</button></li>
+            <li><button className='btn_primary'>Grad School Projects</button></li>
+            <li><button className='btn_secondary'>About Me</button></li>
         </ul>
     </nav>
   )

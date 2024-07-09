@@ -17,3 +17,36 @@ a{
   line-height: 1;
   cursor: pointer;
 }
+
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn_secondary{
+  background: #F5F5F5;
+  color: 333333;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+.btn_secondary:hover{
+  background: #bce4f4;
+}
+
+.btn_primary{
+  background: #3e9cc100;
+  color: #F5F5F5;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+.btn_primary:hover{
+  background:#1d8db9;
+}

@@ -14,5 +14,4 @@ TitlePages.propTypes = {
     title: propTypes.string.isRequired,
   };
   
-
 export default TitlePages

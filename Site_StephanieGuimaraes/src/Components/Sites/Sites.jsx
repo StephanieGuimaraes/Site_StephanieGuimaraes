@@ -5,7 +5,7 @@ import FotoProvisoria from '../../assets/FotoProvisoria.jpg'
 
 const Sites = () => {
   return (
-    <div className='Site'>
+    <div className='site'>
       <div className='site-left'>
         {/* <img src={PortFolio1} alt='' className='PortFolio1'/> */}
         <img src={FotoProvisoria} alt='' className='site-img1'/>

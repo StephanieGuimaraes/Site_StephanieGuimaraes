@@ -1,3 +1,19 @@
 .site{
-    
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+.site-left{
+    flex-basis: 40%;
+}
+.site-right{
+    flex-basis: 56%;
+}
+.site-img1{
+    width:30%;
+    border-radius: 10px;
+}
+
+

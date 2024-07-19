@@ -1,7 +1,7 @@
 //import React from 'react'
 import './Publications.css'
 import FotoProvisoria from '../../assets/FotoProvisoria.jpg'
-import TitlePages from '../TitlePages/TitlePages'
+import TitlePages from '../../Components/TitlePages/TitlePages'
 
 const Publications = () => {
   return (

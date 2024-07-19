@@ -1,8 +1,8 @@
 //import React from 'react'
-import Hero from './Components/Hero/Hero'
-import Navbar from './Components/Navbar/Navbar'
-import Publications from './Components/Publications/Publications'
-import Sites from './Components/Sites/Sites'
+import Hero from './Pages/Hero/Hero'
+import Navbar from './Pages/Navbar/Navbar'
+import Publications from './Pages/Publications/Publications'
+import Sites from './Pages/Sites/Sites'
 
 const App = () => {
   return (

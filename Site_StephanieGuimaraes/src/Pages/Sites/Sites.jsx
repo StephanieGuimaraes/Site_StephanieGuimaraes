@@ -2,7 +2,7 @@
 import './Sites.css'
 //import PortFolio1 from '../../assets/PortFolio1.png'
 import FotoProvisoria from '../../assets/FotoProvisoria.jpg'
-import TitlePages from '../TitlePages/TitlePages'
+import TitlePages from '../../Components/TitlePages/TitlePages'
 
 const Sites = () => {
   return (

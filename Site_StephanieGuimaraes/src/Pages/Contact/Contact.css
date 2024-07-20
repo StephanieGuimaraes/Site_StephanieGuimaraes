@@ -15,4 +15,11 @@
     color:#000F38;
     font-weight: 500;
     font-size: 25px;
+    margin-right: 8px;
+}
+
+.contact-col-title{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
 }

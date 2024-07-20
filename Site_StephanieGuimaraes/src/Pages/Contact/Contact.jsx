@@ -1,4 +1,4 @@
-import { MailOutline } from '@mui/icons-material'
+import { Email, MailOutline } from '@mui/icons-material'
 import TitlePages from '../../Components/TitlePages/TitlePages'
 import './Contact.css'
 
@@ -8,9 +8,10 @@ const Contact = () => {
         <TitlePages title='Contato'/>
         <div className='contact'>
             <div className='contact-col'>
-                <div>
+                <div className='contact-col-title'>
                   <h3>Send us a message</h3>
-                  <MailOutline/>
+                  {/* <MailOutline sx={{fontSize: 32}}/> */}
+                  <Email sx={{fontSize: 32, color: "#000F38"}}/>
                 </div>
                 <p>Feel free to reach out Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cum eaque vero, sint voluptas sequi?</p>
                 <ul>

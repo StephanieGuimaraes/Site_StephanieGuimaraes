@@ -1,4 +1,4 @@
-import { Email, MailOutline } from '@mui/icons-material'
+import { Email} from '@mui/icons-material'
 import TitlePages from '../../Components/TitlePages/TitlePages'
 import './Contact.css'
 

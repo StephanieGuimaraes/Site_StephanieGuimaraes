@@ -1,5 +1,6 @@
 //import React from 'react'
 import Contact from './Pages/Contact/Contact'
+import Footer from './Pages/Footer/Footer'
 import Hero from './Pages/Hero/Hero'
 import Navbar from './Pages/Navbar/Navbar'
 import Publications from './Pages/Publications/Publications'
@@ -14,6 +15,7 @@ const App = () => {
         <Publications/>
         <Sites/>
         <Contact/>
+        <Footer/>
       </div>
     </div>
   )

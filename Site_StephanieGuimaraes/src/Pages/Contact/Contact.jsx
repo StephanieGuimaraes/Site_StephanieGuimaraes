@@ -15,7 +15,7 @@ const Contact = () => {
                 </div>
                 <p>Feel free to reach out Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cum eaque vero, sint voluptas sequi?</p>
                 <ul>
-                    <li><MailOutline sx={{marginRight: "8px"}}/> Contact@GreatStack.dev</li>
+                    <li><MailOutline sx={{marginRight: "8px"}}/> stephanieguimarães7@gmail.com</li>
                     <li><LocalPhone sx={{marginRight: "8px"}}/> +55 62 9 8214 9782</li>
                     <li><LocationOn sx={{marginRight: "8px"}}/> Brazil, Goiânia/Go</li>
                 </ul>

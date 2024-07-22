@@ -3,6 +3,7 @@ import './Navbar.css'
 import logo_Teste from '../../assets/logo_Teste.png'
 import { useState } from 'react'
 import { useEffect } from 'react';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -28,11 +29,12 @@ const Navbar = () => {
         </div>
         <div>
           <ul>
-              <li className='nav-buttons'><button className='btn_primary'>Home</button></li>
-              <li className='nav-buttons'><button className='btn_primary'>Publications</button></li>
-              <li className='nav-buttons'><button className='btn_primary'>Work Projects</button></li>
-              <li className='nav-buttons'><button className='btn_primary'>Grad School Projects</button></li>
-              <li className='nav-buttons'><button className='btn_secondary'>About Me</button></li>
+              <li className='nav-buttons'><Link className='btn_primary' to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
+              <li className='nav-buttons'><Link className='btn_primary' to='publications' smooth={true} offset={-260} duration={500}>Publications</Link></li>
+              <li className='nav-buttons'><Link className='btn_primary' to='site' smooth={true} offset={-260} duration={500}>Work Projects</Link></li>
+              {/* <li className='nav-buttons'><button className='btn_primary'>Grad School Projects</button></li> */}
+              <li className='nav-buttons'><Link className='btn_primary' to='contact' smooth={true} offset={-260} duration={500}>Contato</Link></li>
+              <li className='nav-buttons'><button className='btn_secondary'><Link to='footer' smooth={true} offset={-260} duration={500}>About Me</Link></button></li>
           </ul>
         </div>
       </div>

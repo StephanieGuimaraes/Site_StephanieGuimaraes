@@ -37,12 +37,22 @@ const Navbar = () => {
         </div>
         <div>
           <ul>
-              <li className='nav-buttons'><Link className='btn_primary' to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
-              <li className='nav-buttons'><Link className='btn_primary' to='publications' smooth={true} offset={-260} duration={500}>Publications</Link></li>
-              <li className='nav-buttons'><Link className='btn_primary' to='site' smooth={true} offset={-260} duration={500}>Work Projects</Link></li>
-              {/* <li className='nav-buttons'><button className='btn_primary'>Grad School Projects</button></li> */}
-              <li className='nav-buttons'><Link className='btn_primary' to='contact' smooth={true} offset={-260} duration={500}>Contato</Link></li>
-              <li className='nav-buttons'><button className='btn_secondary'><Link to='footer' smooth={true} offset={-260} duration={500}>About Me</Link></button></li>
+              <li className='nav-buttons'>
+                <Link className='btn_primary' to='hero' smooth={true} offset={0} duration={500}>Início{/*Home*/}</Link>
+              </li>
+              <li className='nav-buttons'>
+                <Link className='btn_primary' to='publications' smooth={true} offset={-260} duration={500}>Sites</Link>
+              </li>
+              
+              <li className='nav-buttons'>
+                <Link className='btn_primary' to='projects' smooth={true} offset={-260} duration={500}>Projetos{/*Work projects*/}</Link> 
+              </li>
+              <li className='nav-buttons'>
+                <Link className='btn_primary' to='publications' smooth={true} offset={-260} duration={500}>Publicações{/*Publications*/}</Link>
+              </li>
+              <li className='nav-buttons'>
+                <button className='btn_secondary'><Link to='footer' smooth={true} offset={-260} duration={500}>Contato</Link></button>
+              </li>
           </ul>
         </div>
       </div>

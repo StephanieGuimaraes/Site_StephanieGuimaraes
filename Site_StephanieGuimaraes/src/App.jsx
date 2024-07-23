@@ -3,8 +3,8 @@ import Contact from './Pages/Contact/Contact'
 import Footer from './Pages/Footer/Footer'
 import Hero from './Pages/Hero/Hero'
 import Navbar from './Pages/Navbar/Navbar'
+import Projects from './Pages/Projects/Projects'
 import Publications from './Pages/Publications/Publications'
-import Sites from './Pages/Sites/Sites'
 
 const App = () => {
   return (
@@ -12,8 +12,8 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <div className='container'>
+        <Projects/>
         <Publications/>
-        <Sites/>
         <Contact/>
         <Footer/>
       </div>

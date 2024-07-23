@@ -6,7 +6,7 @@ import TitlePages from '../../Components/TitlePages/TitlePages'
 const Publications = () => {
   return (
     <div>
-      <TitlePages title='Publications'/>
+      <TitlePages title='Publicações'/>
       <div className='publications'>
           <div className='publication'>
               <img src={FotoProvisoria} alt=''/>

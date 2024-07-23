@@ -1,6 +1,6 @@
 //import React from 'react'
 import './Navbar.css'
-import logo_Teste from '../../assets/logo_Teste.png'
+import LogoBranca from '../../assets/LogoBranca.png'
 import { useState } from 'react'
 import { useEffect } from 'react';
 import { Link } from 'react-scroll';
@@ -20,9 +20,8 @@ const Navbar = () => {
     <nav>
       <div className='container big-nav'>
         <ul className='inside-small-nav'>
-          <li><Stack direction="row" alignItems="center"><Phone sx={{color:"#3E9BC1", fontSize: 30}}/><p>+55(62)982149782</p></Stack></li>
+            <li><Stack direction="row" alignItems="center"><Phone sx={{color:"#3E9BC1", fontSize: 30}}/><p>+55(62)982149782</p></Stack></li>
           <div>
-            
             <li><Stack direction="row"><LinkedIn sx={{color:"#3E9BC1", fontSize: 30}}/></Stack></li>
             <li><Stack direction="row"><GitHub sx={{color:"#3E9BC1", fontSize: 30}}/></Stack></li>
             <li><Stack direction="row"><Instagram sx={{color:"#3E9BC1", fontSize: 30}}/></Stack></li>
@@ -33,7 +32,7 @@ const Navbar = () => {
       </div>
       <div className={`container menu ${sticky ? 'small-nav' : ''}`}>
         <div>
-          <img src={logo_Teste} alt='logo escrito Stephanie Guimarães' className='logo'></img>
+          <img src={LogoBranca} alt='logo escrito Stephanie Guimarães' className='logo'></img>
         </div>
         <div>
           <ul>
@@ -51,7 +50,7 @@ const Navbar = () => {
                 <Link className='btn_primary' to='publications' smooth={true} offset={-260} duration={500}>Publicações{/*Publications*/}</Link>
               </li>
               <li className='nav-buttons'>
-                <button className='btn_secondary'><Link to='footer' smooth={true} offset={-260} duration={500}>Contato</Link></button>
+                <button className='btn_secondary'><Link to='contact' smooth={true} offset={-260} duration={500}>Contato</Link></button>
               </li>
           </ul>
         </div>

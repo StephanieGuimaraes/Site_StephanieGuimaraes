@@ -1,14 +1,14 @@
-.site{
+.projects{
     margin: 58px auto;
     width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.site-left{
+.projects-left{
     flex-basis: 45%;
 }
-.site-right{
+.projects-right{
     flex-basis: 45%;
 }
 .site-img1{

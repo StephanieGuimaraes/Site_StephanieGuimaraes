@@ -37,7 +37,7 @@ const Navbar = () => {
         <div>
           <ul>
               <li className='nav-buttons'>
-                <Link className='btn_primary' to='hero' smooth={true} offset={0} duration={500}>Início{/*Home*/}</Link>
+                <Link className='btn_primary' to='home' smooth={true} offset={0} duration={500}>Início{/*Home*/}</Link>
               </li>
               <li className='nav-buttons'>
                 <Link className='btn_primary' to='publications' smooth={true} offset={-260} duration={500}>Sites</Link>

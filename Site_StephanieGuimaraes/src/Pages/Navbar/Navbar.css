@@ -52,7 +52,7 @@ nav ul li{
     display: flex;
     justify-content: space-between;
 }
-.inside-small-nav div{
+.icons-right{
     display: flex;
     gap: 16px;
 }

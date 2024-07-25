@@ -4,8 +4,8 @@ import LogoBranca from '../../assets/LogoBranca.png'
 import { useState } from 'react'
 import { useEffect } from 'react';
 import { Link } from 'react-scroll';
-import { GitHub, Instagram, LinkedIn, MailOutline, Phone } from '@mui/icons-material';
-import { Divider, Stack } from '@mui/material';
+import { GitHub, Instagram, LinkedIn, MailOutline, WhatsApp } from '@mui/icons-material';
+import { Divider, Stack, Typography } from '@mui/material';
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -20,13 +20,42 @@ const Navbar = () => {
     <nav>
       <div className='container big-nav'>
         <ul className='inside-small-nav'>
-            <li><Stack direction="row" alignItems="center"><Phone sx={{color:"#3E9BC1", fontSize: 30}}/><p>+55(62)982149782</p></Stack></li>
-          <div>
-            <li><Stack direction="row"><LinkedIn sx={{color:"#3E9BC1", fontSize: 30}}/></Stack></li>
-            <li><Stack direction="row"><GitHub sx={{color:"#3E9BC1", fontSize: 30}}/></Stack></li>
-            <li><Stack direction="row"><Instagram sx={{color:"#3E9BC1", fontSize: 30}}/></Stack></li>
+            <li>
+              <Stack direction="row" alignItems="center" gap="8px">
+                <a href="https://wa.me/5562982149782" target="_blank">
+                  <WhatsApp sx={{color:"#3E9BC1", fontSize: 30}}/>    
+                </a>
+                <Typography fontFamily="Poppins" fontSize="16px" fontWeight={500} color="#676767">Contato: +55(62)982149782</Typography>
+              </Stack>
+            </li>
+          <div className='icons-right'>
+            <li>
+              <Stack direction="row" alignItems="center">
+                <a href="https://www.linkedin.com/in/stephanie-cardoso-guimaraes-319306107/" target="_blank">
+                  <LinkedIn sx={{ color: "#3E9BC1", fontSize: 30 }} />
+                </a>
+              </Stack>
+            </li>
+            <li>
+              <Stack direction="row" alignItems="center">
+                <a href="https://github.com/StephanieGuimaraes" target="_blank">
+                   <GitHub sx={{color:"#3E9BC1", fontSize: 30}}/>
+                </a>
+              </Stack>
+            </li>
+            <li>
+              <Stack direction="row" alignItems="center">
+                <a href="https://www.instagram.com/steph_guimaraes/" target="_blank">
+                <Instagram sx={{color:"#3E9BC1", fontSize: 30}}/>
+                </a>
+              </Stack>
+            </li>
             <Divider orientation='vertical' variant="middle" flexItem/>
-            <li><Stack direction="row" alignItems="center"><MailOutline sx={{color:"#3E9BC1", fontSize: 30}}/><p>stephanieguimaraes7@gmail.com</p></Stack></li>
+            <li>
+              <Stack direction="row" alignItems="center" gap="8px"><MailOutline sx={{color:"#3E9BC1", fontSize: 30}}/>
+                <Typography fontFamily="Poppins" fontSize="16px" fontWeight={500} color="#676767">stephanieguimaraes7@gmail.com</Typography>
+              </Stack>
+            </li>
           </div>
         </ul>
       </div>

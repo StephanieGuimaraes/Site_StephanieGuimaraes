@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home'
 import Navbar from './Pages/Navbar/Navbar'
 import Projects from './Pages/Projects/Projects'
 import Publications from './Pages/Publications/Publications'
+import Sites from './Pages/Sites/Sites'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Navbar/>
       <Home/>
       <div className='container'>
+        <Sites/>
         <Projects/>
         <Publications/>
         <Contact/>

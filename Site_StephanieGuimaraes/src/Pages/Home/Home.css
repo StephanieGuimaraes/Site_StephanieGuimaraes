@@ -35,7 +35,7 @@
     z-index: 1; /* Ensure the text and button are above the overlay */
     color: white; /* Example text color */
     text-align: center; /* Center text alignment */
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .home-text h1{
@@ -44,9 +44,9 @@
 }
 
 .home-text p{
-    max-width: 700px;
+    max-width: 1000px;
     margin: 10px auto 20px;
     line-height: 1.4;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 350;
 }

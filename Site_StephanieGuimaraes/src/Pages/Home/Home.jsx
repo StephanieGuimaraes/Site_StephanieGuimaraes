@@ -10,9 +10,11 @@ const Home = () => {
             Your browser does not support the video tag.
         </video>
         <div className='home-text'>
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, totam. Lorem ipsum dolor sit amet.</p>
-          <button className='btn'>Contato</button>
+          <h1>Criamos seu site profissional.</h1>
+          <p>Transforme sua visão em realidade com nossos serviços de desenvolvimento web.<br/>
+            Utilizamos React a melhor e mais moderna tecnologia do mercado para criar sites rápidos e responsivos.<br/>
+            Com excelente custo-benefício. Feito sob medida para seu negócio.</p>
+          <button className='btn_secondary'>Entre em Contato</button>
         </div>
     </div>
   )

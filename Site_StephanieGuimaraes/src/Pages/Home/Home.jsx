@@ -1,6 +1,7 @@
 //import React from 'react'
 import './Home.css'
 import VideoHomeKuaray from "../../assets/VideoHomeKuaray.mp4";
+import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
           <p>Transforme sua visão em realidade com nossos serviços de desenvolvimento web.<br/>
             Utilizamos React a melhor e mais moderna tecnologia do mercado para criar sites rápidos e responsivos.<br/>
             Com excelente custo-benefício. Feito sob medida para seu negócio.</p>
-          <button className='btn_secondary'>Entre em Contato</button>
+          <button className='btn_secondary'><Link to='contact' smooth={true} offset={-260} duration={500}>Entre em Contato</Link></button>
+          {/* <button className='btn_secondary'>Entre em Contato</button> */}
         </div>
     </div>
   )

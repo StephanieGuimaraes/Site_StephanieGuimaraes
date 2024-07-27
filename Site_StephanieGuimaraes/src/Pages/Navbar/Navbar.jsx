@@ -69,7 +69,7 @@ const Navbar = () => {
                 <Link className='btn_primary' to='home' smooth={true} offset={0} duration={500}>Início{/*Home*/}</Link>
               </li>
               <li className='nav-buttons'>
-                <Link className='btn_primary' to='sites' smooth={true} offset={-260} duration={500}>Sites</Link>
+                <Link className='btn_primary' to='sites' smooth={true} offset={-260} duration={500}>Como funciona</Link>
               </li>
               
               <li className='nav-buttons'>

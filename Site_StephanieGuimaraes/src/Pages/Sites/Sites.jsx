@@ -6,7 +6,7 @@ import './Sites.css'
 const Sites = () => {
   return (
     <div>
-    <TitlePages title='Sites'/>
+    <TitlePages title='Como funciona'/>
     <div className='sites'>
         <div className='site'>
             <img src={FotoProvisoria} alt=''/>

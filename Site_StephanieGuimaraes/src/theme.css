@@ -2,11 +2,7 @@
 
 :root {
     /* primary */
-    /* --color-primary: #3E9BC1;
-    --color-secondary: #F5F5F5;
-    --color-tertiary: #775820;
-    --color-text: #333333;
-    --color-bg: #F5F5F5; */
+    --primary: #dbf3ee;
     --primary-50: #3EC1A5;
     --primary-100: #36a990;
     --primary-200: #2f937d;
@@ -23,7 +19,8 @@
     --neutro-50: #FAFAFA;
 
     /* Fonts */
-    --color-text: #333333;
+    --color-text-50: #333333;
+    --color-text-100: #676767;
     --font-family-primary: 'Poppins', sans-serif;
   }
   

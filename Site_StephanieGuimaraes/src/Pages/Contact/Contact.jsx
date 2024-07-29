@@ -2,6 +2,7 @@ import { ArrowForward, Email, LocalPhone, LocationOn, MailOutline} from '@mui/ic
 import TitlePages from '../../Components/TitlePages/TitlePages'
 import './Contact.css'
 import React from 'react';
+import { Stack } from '@mui/material';
 
 const Contact = () => {
 
@@ -38,13 +39,13 @@ const Contact = () => {
                 <div className='contact-col-title'>
                   <h3>Send us a message</h3>
                   {/* <MailOutline sx={{fontSize: 32}}/> */}
-                  <Email sx={{fontSize: 32, color: "#000F38"}}/>
+                  <Email sx={{fontSize: 32, color: "var(--primary-100)"}}/>
                 </div>
                 <p>Feel free to reach out Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cum eaque vero, sint voluptas sequi?</p>
                 <ul>
-                    <li><MailOutline sx={{marginRight: "8px"}}/> stephanieguimarães7@gmail.com</li>
-                    <li><LocalPhone sx={{marginRight: "8px"}}/> +55 62 9 8214 9782</li>
-                    <li><LocationOn sx={{marginRight: "8px"}}/> Brazil, Goiânia/Go</li>
+                    <li><MailOutline sx={{marginRight: "8px", color: "var(--primary-100)"}}/> stephanieguimarães7@gmail.com</li>
+                    <li><LocalPhone sx={{marginRight: "8px", color: "var(--primary-100)"}}/> +55 62 9 8214 9782</li>
+                    <li><LocationOn sx={{marginRight: "8px", color: "var(--primary-100)"}}/> Brazil, Goiânia/Go</li>
                 </ul>
             </div>
             <div className='contact-col'>
@@ -55,7 +56,12 @@ const Contact = () => {
                   <input type="tel" name='phone' placeholder='Enter your mobile number'/>
                   <label>Write your messages here</label>
                   <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
-                  <button type='submit' className='btn'>Submit now <ArrowForward sx={{marginLeft:"8px"}}/> </button>
+                  <button type='submit' className='btn'>
+                    <Stack direction="row" alignItems="center">
+                    Submit now <ArrowForward sx={{marginLeft:"8px"}}/>
+                    </Stack>
+                    
+                    </button>
                 </form>
                 <span>{result}</span>
             </div>

@@ -34,7 +34,6 @@ a {
   cursor: pointer;
   border: 0;
   outline: 0;
-  //display: flex;
 }
 .btn:hover {
   background: var(--primary-200);
@@ -55,7 +54,6 @@ a {
 }
 
 .btn_primary {
-  //background: transparent;
   color: var(--white);
   padding: 14px 25px;
   font-size: 20px;

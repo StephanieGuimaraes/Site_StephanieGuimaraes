@@ -2,6 +2,7 @@ import { ArrowForward, Email, LocalPhone, LocationOn, MailOutline} from '@mui/ic
 import TitlePages from '../../Components/TitlePages/TitlePages'
 import './Contact.css'
 import React from 'react';
+import { Stack } from '@mui/material';
 
 const Contact = () => {
 
@@ -55,7 +56,12 @@ const Contact = () => {
                   <input type="tel" name='phone' placeholder='Enter your mobile number'/>
                   <label>Write your messages here</label>
                   <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
-                  <button type='submit' className='btn'>Submit now <ArrowForward sx={{marginLeft:"8px"}}/> </button>
+                  <button type='submit' className='btn'>
+                    <Stack direction="row" alignItems="center">
+                    Submit now <ArrowForward sx={{marginLeft:"8px"}}/>
+                    </Stack>
+                    
+                    </button>
                 </form>
                 <span>{result}</span>
             </div>

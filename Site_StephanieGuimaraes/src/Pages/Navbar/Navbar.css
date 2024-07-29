@@ -1,6 +1,6 @@
 nav{
     width: 100%;
-    background: #3E9BC1;  
+    background: var(--primary-100);  
     color: 333333;
     position: fixed;
     top: 0;
@@ -10,7 +10,7 @@ nav{
     //margin: 24px;
 }
 .big-nav{
-    background: #fff;
+    background: var(--white);
     //padding: 8px;
    // margin: 0 0 16px 0;
     //display:flex;
@@ -26,8 +26,8 @@ nav{
 
 .small-nav{
     width: 100%;
-    background: #3E9BC1;
-    color: 333333;
+    background: var(--primary-50);
+    color: var(--color-text);
     position: fixed;
     top: 0;
     left: 0;

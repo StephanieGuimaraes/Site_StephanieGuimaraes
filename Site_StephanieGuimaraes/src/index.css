@@ -1,46 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* index.css */
 
-*{
+@import './theme.css';
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--font-family-primary);
 }
 
-body{
-  background: #F5F5F5;
+body {
+  background: var(--secondary-50);
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
   line-height: 1;
   cursor: pointer;
 }
 
-.container{
+.container {
   padding-left: 10%;
   padding-right: 10%;
 }
 
-.btn{
-  background: #c1943e;
-  color: #F5F5F5;
+.btn {
+  background: var(--primary-100);
+  color: var(--white);
   padding: 14px 25px;
-  font-size: 16px;
-  border-radius: 8px;
+  font-size: 18px;
+  border-radius: 30px;
   cursor: pointer;
   border: 0;
   outline: 0;
-  display:flex;
+  //display: flex;
 }
-.btn:hover{
-  background: #775820;
+.btn:hover {
+  background: var(--primary-200);
 }
 
-.btn_secondary{
-  background: #F5F5F5;
-  color: 333333;
+.btn_secondary {
+  background: var(--accent-50);
+  color: var(--white);
   padding: 14px 25px;
   font-size: 18px;
   border-radius: 30px;
@@ -48,20 +50,20 @@ a{
   border: 0;
   outline: 0;
 }
-.btn_secondary:hover{
-  background: #bce4f4;
+.btn_secondary:hover {
+  background: var(--accent-100);
 }
 
-.btn_primary{
-  background: #3e9cc100;
-  color: #F5F5F5;
+.btn_primary {
+  //background: transparent;
+  color: var(--white);
   padding: 14px 25px;
-  font-size: 18px;
-  border-radius: 8px;
+  font-size: 20px;
+  border-radius: 30px;
   cursor: pointer;
   border: 0;
   outline: 0;
 }
-.btn_primary:hover{
-  background:#1d8db9;
+.btn_primary:hover {
+  background: var(--primary-200);
 }

@@ -1,0 +1,31 @@
+/* variables.css */
+
+:root {
+    /* primary */
+    /* --color-primary: #3E9BC1;
+    --color-secondary: #F5F5F5;
+    --color-tertiary: #775820;
+    --color-text: #333333;
+    --color-bg: #F5F5F5; */
+    --primary-50: #3EC1A5;
+    --primary-100: #36a990;
+    --primary-200: #2f937d;
+
+    /* Secondary */
+    --secondary-50: #FAFAFA;
+
+    /* Accent */
+    --accent-50: #C13E5A;
+    --accent-100: #a6354d;
+
+    /* Neutro */
+    --white: #FFFFFF;
+    --neutro-50: #FAFAFA;
+
+    /* Fonts */
+    --color-text: #333333;
+    --font-family-primary: 'Poppins', sans-serif;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  

@@ -39,13 +39,13 @@ const Contact = () => {
                 <div className='contact-col-title'>
                   <h3>Send us a message</h3>
                   {/* <MailOutline sx={{fontSize: 32}}/> */}
-                  <Email sx={{fontSize: 32, color: "#000F38"}}/>
+                  <Email sx={{fontSize: 32, color: "var(--primary-100)"}}/>
                 </div>
                 <p>Feel free to reach out Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cum eaque vero, sint voluptas sequi?</p>
                 <ul>
-                    <li><MailOutline sx={{marginRight: "8px"}}/> stephanieguimarães7@gmail.com</li>
-                    <li><LocalPhone sx={{marginRight: "8px"}}/> +55 62 9 8214 9782</li>
-                    <li><LocationOn sx={{marginRight: "8px"}}/> Brazil, Goiânia/Go</li>
+                    <li><MailOutline sx={{marginRight: "8px", color: "var(--primary-100)"}}/> stephanieguimarães7@gmail.com</li>
+                    <li><LocalPhone sx={{marginRight: "8px", color: "var(--primary-100)"}}/> +55 62 9 8214 9782</li>
+                    <li><LocationOn sx={{marginRight: "8px", color: "var(--primary-100)"}}/> Brazil, Goiânia/Go</li>
                 </ul>
             </div>
             <div className='contact-col'>

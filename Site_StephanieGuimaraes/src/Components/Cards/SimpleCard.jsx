@@ -4,7 +4,7 @@ import  './SimpleCard.css'
 import { CheckCircleOutline } from '@mui/icons-material'
 const SimpleCard = () => {
   return (
-    <Card sx={{minWidth: 275, padding: "16px", borderRadius: "15px"}}>
+    <Card sx={{minWidth: 275, padding: "24px 32px", borderRadius: "15px"}} elevation={3}>
         <CardContent>
             <Stack spacing={2}>
                 <h3 className='cardtitle'>Landing Page Simples</h3>

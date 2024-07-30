@@ -2,13 +2,15 @@
 import { Card, CardContent, Stack} from '@mui/material'
 import  './SimpleCard.css'
 import { CheckCircleOutline } from '@mui/icons-material'
-const SimpleCard = () => {
+import propTypes from 'prop-types';
+
+const SimpleCard = ({cardTitle, price}) => {
   return (
     <Card sx={{minWidth: 275, padding: "24px 32px", borderRadius: "15px"}} elevation={3}>
         <CardContent>
             <Stack spacing={2}>
-                <h3 className='cardtitle'>Landing Page Simples</h3>
-                <p className='simpletext'>R$ 999</p>
+                <h3 className='cardtitle'>{cardTitle}</h3>
+                <p className='price'>{price}</p>
                 <ul>
                     <Stack spacing={1}>
                         <Stack direction="row" spacing={1} alignItems="center">
@@ -30,5 +32,10 @@ const SimpleCard = () => {
     </Card>
   )
 }
+
+SimpleCard.propTypes = {
+    cardTitle: propTypes.string.isRequired,
+    price: propTypes.string.isRequired,
+  };
 
 export default SimpleCard

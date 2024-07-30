@@ -9,13 +9,13 @@ const Sites = () => {
     <TitlePages title='Como funciona'/>
     <div className='sites'>
         <div className='site'>
-            <SimpleCard/>
+            <SimpleCard cardTitle="Landing Page Simples" price="999"/>
         </div>
         <div className='site'>
-        <SimpleCard/>
+            <SimpleCard cardTitle="Landing Page Simples" price="2500"/>
         </div>
         <div className='site'>
-        <SimpleCard/>
+            <SimpleCard cardTitle="Landing Page Simples" price="4500"/>
         </div>
     </div>
   </div>

@@ -1,3 +1,18 @@
 li{
     list-style: none;
 }
+.cardtitle{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-text-50)
+}
+.simpletext{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary-100)
+}
+.textCard{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text-100)
+}

@@ -4,24 +4,28 @@ import  './SimpleCard.css'
 import { CheckCircleOutline } from '@mui/icons-material'
 const SimpleCard = () => {
   return (
-    <Card sx={{minWidth: 275, padding: "24px"}}>
+    <Card sx={{minWidth: 275, padding: "16px", borderRadius: "15px"}}>
         <CardContent>
-            <h3>Meu card</h3>
-            <p>txt do meu card</p>
-            <ul>
-                <Stack direction="row" spacing={1} alignItems="center">
-                    <CheckCircleOutline sx={{ color: "var(--primary-100)" }}/>
-                    <li>Header</li>
-                </Stack>
-                <Stack direction="row" spacing={1} alignItems="center">
-                    <CheckCircleOutline sx={{ color: "var(--primary-100)" }}/>
-                    <li>4 seções</li>
-                </Stack>
-                <Stack direction="row" spacing={1} alignItems="center">
-                    <CheckCircleOutline sx={{ color: "var(--primary-100)" }}/>
-                    <li>Footer</li>
-                </Stack>
-            </ul>
+            <Stack spacing={2}>
+                <h3 className='cardtitle'>Landing Page Simples</h3>
+                <p className='simpletext'>R$ 999</p>
+                <ul>
+                    <Stack spacing={1}>
+                        <Stack direction="row" spacing={1} alignItems="center">
+                            <CheckCircleOutline sx={{ color: "var(--primary-100)" }}/>
+                            <li className='textCard'>Header</li>
+                        </Stack>
+                        <Stack direction="row" spacing={1} alignItems="center">
+                            <CheckCircleOutline sx={{ color: "var(--primary-100)" }}/>
+                            <li className='textCard'>4 seções</li>
+                        </Stack>
+                        <Stack direction="row" spacing={1} alignItems="center">
+                            <CheckCircleOutline sx={{ color: "var(--primary-100)" }}/>
+                            <li className='textCard'>Footer</li>
+                        </Stack>
+                    </Stack>
+                </ul>
+            </Stack>
         </CardContent>
     </Card>
   )

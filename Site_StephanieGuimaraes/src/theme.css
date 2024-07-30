@@ -20,7 +20,9 @@
 
     /* Fonts */
     --color-text-50: #333333;
-    --color-text-100: #676767;
+    --color-text-100: #474747;
+    --color-text-200: #676767;
+
     --font-family-primary: 'Poppins', sans-serif;
   }
   

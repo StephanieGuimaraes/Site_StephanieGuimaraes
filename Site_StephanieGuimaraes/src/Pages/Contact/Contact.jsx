@@ -10,7 +10,7 @@ const Contact = () => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
+    setResult("Enviando....");
     const formData = new FormData(event.target);
 
     formData.append("access_key", "09388981-be37-4322-9965-8439a3996142");
@@ -23,7 +23,7 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Email sent Successfully");
+      setResult("Email enviado com sucesso!");
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -37,7 +37,7 @@ const Contact = () => {
         <div className='contact'>
             <div className='contact-col'>
                 <div className='contact-col-title'>
-                  <h3>Send us a message</h3>
+                  <h3>Nos envie uma mensagem</h3>
                   {/* <MailOutline sx={{fontSize: 32}}/> */}
                   <Email sx={{fontSize: 32, color: "var(--primary-100)"}}/>
                 </div>
@@ -50,15 +50,15 @@ const Contact = () => {
             </div>
             <div className='contact-col'>
                 <form onSubmit={onSubmit}>
-                  <label>Your name</label>
-                  <input type="text" name='name' placeholder='Enter your name' required/>
-                  <label>Phone Number</label>
-                  <input type="tel" name='phone' placeholder='Enter your mobile number'/>
-                  <label>Write your messages here</label>
-                  <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
+                  <label>Nome</label>
+                  <input type="text" name='name' placeholder='Digite seu nome' required/>
+                  <label>Número de contato</label>
+                  <input type="tel" name='phone' placeholder='Digite seu celular'/>
+                  <label>Escreva sua menssagem aqui</label>
+                  <textarea name="message" rows="6" placeholder='Digite sua mensagem' required></textarea>
                   <button type='submit' className='btn'>
                     <Stack direction="row" alignItems="center">
-                    Submit now <ArrowForward sx={{marginLeft:"8px"}}/>
+                    Enviar agora <ArrowForward sx={{marginLeft:"8px"}}/>
                     </Stack>
                     
                     </button>

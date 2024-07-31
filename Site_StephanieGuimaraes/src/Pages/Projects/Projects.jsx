@@ -15,7 +15,7 @@ const Projects = () => {
           <img src={FotoProvisoria} alt='' className='site-img1'/>
         </div>
         <div className='projects-right'>
-          <h3>About university</h3>
+          <h3>Projetos</h3>
           <h2>Lorem, ipsum dolor sit amet consectetur.</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit perspiciatis cum dicta ipsum tempore eligendi.</p>
         </div>

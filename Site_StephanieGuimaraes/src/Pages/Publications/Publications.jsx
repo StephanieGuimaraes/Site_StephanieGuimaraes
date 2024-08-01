@@ -2,6 +2,7 @@
 import './Publications.css'
 import FotoProvisoria from '../../assets/FotoProvisoria.jpg'
 import TitlePages from '../../Components/TitlePages/TitlePages'
+import MediaCard from '../../Components/Cards/MediaCard'
 
 const Publications = () => {
   return (
@@ -9,7 +10,7 @@ const Publications = () => {
       <TitlePages title='Publicações'/>
       <div className='publications'>
           <div className='publication'>
-              <img src={FotoProvisoria} alt=''/>
+              <MediaCard/>
           </div>
           <div className='publication'>
               <img src={FotoProvisoria} alt=''/>

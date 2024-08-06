@@ -1,5 +1,6 @@
 //import React from 'react'
 import SimpleCard from '../../Components/Cards/SimpleCard'
+import SimpleCardTeste from '../../Components/Cards/SimpleCardTeste'
 import TitlePages from '../../Components/TitlePages/TitlePages'
 import './Sites.css'
 
@@ -9,7 +10,7 @@ const Sites = () => {
     <TitlePages title='Como funciona'/>
     <div className='sites'>
         <div className='site'>
-            <SimpleCard cardTitle="Landing Page Simples" price="999"/>
+            <SimpleCardTeste />
         </div>
         <div className='site'>
             <SimpleCard cardTitle="Landing Page Simples" price="2500"/>

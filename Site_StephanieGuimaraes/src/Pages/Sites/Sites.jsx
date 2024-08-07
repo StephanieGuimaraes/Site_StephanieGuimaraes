@@ -9,13 +9,34 @@ const Sites = () => {
     <TitlePages title='Como funciona'/>
     <div className='sites'>
         <div className='site'>
-            <SimpleCardTeste />
+            <SimpleCardTeste 
+              tag={false} 
+              title="Landing Page Complexa"
+              subText="Lizards are a widespread group of squamate reptiles, with over 6,000
+                species"
+              price={2999}
+              listItems={["Header", "4 seções", "Footer"]}
+            />
         </div>
         <div className='site'>
-          <SimpleCardTeste />
+          <SimpleCardTeste 
+            tag={true} 
+            title="Landing Page Simples"
+            subText="Lizards are a widespread group of squamate reptiles, with over 6,000
+                species"
+            price={1999}
+            listItems={["Header", "4 seções", "Footer"]}
+          />
         </div>
         <div className='site'>
-          <SimpleCardTeste />
+          <SimpleCardTeste 
+            tag={false} 
+            title="Site com integrações"
+            subText="Lizards are a widespread group of
+                species"
+            price={3999}
+            listItems={["Header", "4 seções"]}
+          />
         </div>
     </div>
   </div>

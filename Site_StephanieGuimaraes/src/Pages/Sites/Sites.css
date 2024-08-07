@@ -1,16 +1,11 @@
 .sites{
-    margin: 58px auto;
+    margin: 5rem auto;
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     
 }
-.site img{
-   width: 100%;
-   border-radius: 10px;
-   display: block; 
-}
 .site{
-    flex-basis: 25%;
+    flex-basis: 30%;
 }

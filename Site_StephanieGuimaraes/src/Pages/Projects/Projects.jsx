@@ -5,6 +5,7 @@ import FotoProvisoria from '../../assets/FotoProvisoria.jpg'
 import TitlePages from '../../Components/TitlePages/TitlePages'
 import { ArrowBackIosNew, ArrowForwardIos} from '@mui/icons-material'
 import { IconButton } from '@mui/material'
+import ShowProject from './components/ShowProject'
 
 const Projects = () => {
   return (
@@ -44,16 +45,7 @@ const Projects = () => {
           <div className='slider'>
             <ul>
               <li>
-                <div className='slide'>
-                  <div className='user-info'>
-                    <img src={FotoProvisoria} alt='' className='img1'/>  
-                    <div>
-                      <h3>William Jackson</h3>
-                      <span>Edusity, USA</span>
-                    </div>
-                  </div>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
+                  <ShowProject/>
               </li>
               <li>
                 <div className='slide'>

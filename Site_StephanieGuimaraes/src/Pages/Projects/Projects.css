@@ -8,6 +8,13 @@
     overflow: hidden;
 }
 
+.slider ul{
+    display: flex;
+    width: 200%;
+    overflow-x: hidden;
+    transition: 0.5s
+}
+
 .img1{
     width: 20%;
     display: block; 

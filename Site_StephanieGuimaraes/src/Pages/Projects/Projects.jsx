@@ -11,9 +11,13 @@ const Projects = () => {
     <div>
       <TitlePages title='Projetos'/>
       <div className='projects'>
-          {/* <img src={FotoProvisoria} alt='' className='site-img1'/> */}
           <IconButton size='large'
            sx={{
+            position:"absolute",
+            top: "50%",
+            right: "auto",
+            left: "0",
+            transform: 'TranslateY(-50%)',
             color: "var(--black)",
             '&:hover': {
               backgroundColor: "var(--primary-100)", 
@@ -24,6 +28,10 @@ const Projects = () => {
           </IconButton>
           <IconButton size='large'
            sx={{
+            position:"absolute",
+            top: "50%",
+            right: "0",
+            transform: 'TranslateY(-50%)',
             color: "var(--black)",
             '&:hover': {
               backgroundColor: "var(--primary-100)", 
@@ -38,7 +46,7 @@ const Projects = () => {
               <li>
                 <div className='slide'>
                   <div className='user-info'>
-                    <img src={FotoProvisoria} alt='' className='img1' sx/>  
+                    <img src={FotoProvisoria} alt='' className='img1'/>  
                     <div>
                       <h3>William Jackson</h3>
                       <span>Edusity, USA</span>
@@ -59,6 +67,19 @@ const Projects = () => {
                   <p>Lorem ipsum dolor sit amet.</p>
                 </div>
               </li>
+              <li>
+                <div className='slide'>
+                  <div className='user-info'>
+                    <img src={FotoProvisoria} alt='' className='img1'/>  
+                    <div>
+                      <h3>William Jackson</h3>
+                      <span>Edusity, USA</span>
+                    </div>
+                  </div>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </li>
+              
             </ul>
           </div>
       </div>

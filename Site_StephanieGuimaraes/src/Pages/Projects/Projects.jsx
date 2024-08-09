@@ -41,23 +41,13 @@ const Projects = () => {
           >
             <ArrowForwardIos fontSize='inherit' sx={{color: "var(--black)"}}/>
           </IconButton>
-
           <div className='slider'>
             <ul>
               <li>
                   <ShowProject/>
               </li>
               <li>
-                <div className='slide'>
-                  <div className='user-info'>
-                    <img src={FotoProvisoria} alt='' className='img1'/>  
-                    <div>
-                      <h3>William Jackson</h3>
-                      <span>Edusity, USA</span>
-                    </div>
-                  </div>
-                  <p>Lorem ipsum dolor sit amet.</p>
-                </div>
+                <ShowProject/>
               </li>
               <li>
                 <div className='slide'>

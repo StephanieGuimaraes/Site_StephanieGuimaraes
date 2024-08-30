@@ -3,7 +3,7 @@ import Contact from './Pages/Contact/Contact'
 import Footer from './Pages/Footer/Footer'
 import Home from './Pages/Home/Home'
 import Navbar from './Pages/Navbar/Navbar'
-import Projects from './Pages/Projects/Projects'
+import Projetos from './Pages/Projects/Projetos'
 import Publications from './Pages/Publications/Publications'
 import Sites from './Pages/Sites/Sites'
 
@@ -14,7 +14,7 @@ const App = () => {
       <Home/>
       <div className='container'>
         <Sites/>
-        <Projects/>
+        <Projetos/>
         <Publications/>
         <Contact/>
         <Footer/>

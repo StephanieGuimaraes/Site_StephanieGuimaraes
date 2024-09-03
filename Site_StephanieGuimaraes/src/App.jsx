@@ -4,7 +4,6 @@ import Footer from './Pages/Footer/Footer'
 import Home from './Pages/Home/Home'
 import Navbar from './Pages/Navbar/Navbar'
 import Projetos from './Pages/Projects/Projetos'
-import Publications from './Pages/Publications/Publications'
 import Sites from './Pages/Sites/Sites'
 
 const App = () => {
@@ -15,7 +14,7 @@ const App = () => {
       <div className='container'>
         <Sites/>
         <Projetos/>
-        <Publications/>
+        {/* <Publications/> */}
         <Contact/>
         <Footer/>
       </div>

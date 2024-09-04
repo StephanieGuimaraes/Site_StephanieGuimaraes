@@ -75,9 +75,9 @@ const Navbar = () => {
               <li className='nav-buttons'>
                 <Link className='btn_primary' to='projects' smooth={true} offset={-260} duration={500}>Projetos{/*Work projects*/}</Link> 
               </li>
-              <li className='nav-buttons'>
-                <Link className='btn_primary' to='publications' smooth={true} offset={-260} duration={500}>Publicações{/*Publications*/}</Link>
-              </li>
+              {/* <li className='nav-buttons'>
+                <Link className='btn_primary' to='publications' smooth={true} offset={-260} duration={500}>Publicações</Link>
+              </li> */}
               <li className='nav-buttons'>
                 <button className='btn_secondary'><Link to='contact' smooth={true} offset={-260} duration={500}>Contato</Link></button>
               </li>

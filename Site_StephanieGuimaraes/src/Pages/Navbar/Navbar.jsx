@@ -73,7 +73,7 @@ const Navbar = () => {
               </li>
               
               <li className='nav-buttons'>
-                <Link className='btn_primary' to='projects' smooth={true} offset={-260} duration={500}>Projetos{/*Work projects*/}</Link> 
+                <Link className='btn_primary' to='projetos' smooth={true} offset={-260} duration={500}>Projetos{/*Work projects*/}</Link> 
               </li>
               {/* <li className='nav-buttons'>
                 <Link className='btn_primary' to='publications' smooth={true} offset={-260} duration={500}>Publicações</Link>
